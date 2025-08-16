@@ -7,25 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    
     <div class="container">
-        <h1 >Display</h1>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>0</button>
-        <button>+</button>
-        <button>-</button>
-        <button>×</button>
-        <button>÷</button>
-        <button>=</button>
-        <button>C</button>
-        
+        <h1 class="display" >0</h1>
+        <button onclick="appendTodisplay('1')">1</button>
+        <button onclick="appendTodisplay('2')">2</button>
+        <button onclick="appendTodisplay('3')">3</button>
+        <button onclick="appendTodisplay('4')">4</button>
+        <button onclick="appendTodisplay('5')">5</button>
+        <button onclick="appendTodisplay('6')">6</button>
+        <button onclick="appendTodisplay('7')">7</button>
+        <button onclick="appendTodisplay('8')">8</button>
+        <button onclick="appendTodisplay('9')">9</button>
+        <button onclick="appendTodisplay('0')">0</button>
+        <button onclick="appendTodisplay('+')">+</button>
+        <button onclick="appendTodisplay('-')">-</button>
+        <button onclick="appendTodisplay('*')">×</button>
+        <button onclick="appendTodisplay('/')">÷</button>
+        <button onclick="backSpace()">«</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="clearBtn()">C</button>        
     </div>
 
 
